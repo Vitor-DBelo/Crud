@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #151515; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+ 
+.form-control {
+  color: white; 
+}
+
+.form-control:focus {
+  color: white; 
+}
+
+  .form-control {
+    background-color: #151515; 
+    border: none; 
+    border-bottom: 2px solid white; /* Adiciona a linha branca abaixo */
+    border-radius: 0; 
+  }
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Cor do placeholder */
+  }
+  .form-control:focus {
+    background-color: #1e1e1e; 
+    border: none; 
+    border-bottom: 2px solid white; 
+    box-shadow: none; 
+  }
+  label {
+    color: white; /* Rótulos brancos */
+  }
+  .link_cadastro {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .link_cadastro a {
+    text-decoration: none;
+    color: #007bff; /* Cor do link */
+  }
+  .btn-login {
+    background-color: #1e1e1e; 
+    color: white; 
+    border: none; 
+  }
+  .btn-login:hover {
+    background-color: #202020; 
+    color: white;
+  }
+  .form-floating:focus-within {
+    border-color: transparent; 
+  }

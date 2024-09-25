@@ -1,0 +1,92 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  .container {
+    margin-top: 50px;
+  }
+ 
+.form-control {
+  color: white; 
+}
+
+*/
+.form-control:focus {
+  color: white; 
+}
+
+  .form-container {
+    background-color: #151515;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .btn-primary, .btn-danger {
+    margin: 2px;
+  }
+  .table {
+    background-color: #151515;
+    color: white;
+  }
+  .table thead {
+    background-color: #202020;
+  }
+  .form-control {
+    background-color: #1e1e1e;
+    border: none;
+    color: white;
+  }
+  .form-control:focus {
+    background-color: #1e1e1e;
+    border: 1px solid #007bff;
+    box-shadow: none;
+  }
+  .btn-primary {
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
+  }
+  
+  .btn-primary:hover {
+    background-color: #202020;
+    border-color: #202020;
+  }
+  
+  .btn-secondary {
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #202020;
+    border-color: #202020;
+  }
+  
+  
+  ::placeholder {
+    color: #ffffff;
+    opacity: 1; 
+  }
+  label {
+    color: white; /* Rótulos brancos */
+  }
+  .link_cadastro {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .link_cadastro a {
+    text-decoration: none;
+    color: #007bff; /* Cor do link */
+  }
+  .btn-login {
+    background-color: #1e1e1e; 
+    color: white; 
+    border: none; 
+  }
+  .btn-login:hover {
+    background-color: #202020; 
+    color: white;
+  }
+  .form-floating:focus-within {
+    border-color: transparent; 
+  }
